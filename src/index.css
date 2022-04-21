@@ -347,3 +347,7 @@ template {
 [hidden] {
   display: none;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
