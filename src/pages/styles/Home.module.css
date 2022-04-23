@@ -1,8 +1,16 @@
-.h1_container{
-    text-align: justify;
+.h1_models_container > h1{
+    text-align: left;
     padding: 10px;
     letter-spacing: -0.7px;
     line-height: 44px;
+    font-weight: bold;
+    
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
 }
 
 
