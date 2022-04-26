@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Models from '../components/Models'
 import Nav from '../components/Nav'
 import styles from './styles/Home.module.css'
 
 const Home = ({models, filterModels}) => {
+
+
+
+ 
+  
+
+
   return (
     <>
         <Nav/>
@@ -12,6 +19,12 @@ const Home = ({models, filterModels}) => {
         <Models models={models} filterModels={filterModels}/>
         <footer className={styles.footer}></footer>
         </div>
+
+
+
+
+
+
     </>
   )
 }
