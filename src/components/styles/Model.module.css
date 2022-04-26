@@ -1,0 +1,42 @@
+.model_container > div > h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+
+.model_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    max-height: 223px;
+}
+
+.name_year{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 35%;
+}
+
+.name_year > h2{
+    cursor: pointer;
+    margin: 0;
+}
+
+.name_year > p{
+    margin: 0;
+    letter-spacing: -0.28px;
+    margin-top: 10px;
+}
+
+
+.model_photo{
+    width: 208px;
+    min-height: 95px;
+    max-height: 170px;
+    cursor: pointer;
+
+}
+
