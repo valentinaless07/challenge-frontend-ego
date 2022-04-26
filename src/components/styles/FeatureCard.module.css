@@ -1,0 +1,45 @@
+.feature_card > img{
+    border-radius: 5px;
+    width: 230px;
+}
+
+.feature_card > h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #373737;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.feature_card > p{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.feature_card{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: 250ms all;
+    max-width: 380px;
+    text-align: center;
+}
+
+
+@media (max-width: 1185px) {
+.features_card_m{
+    display: none;
+}
+}
+
+@media (max-width: 695px) {
+    .features_card_s{
+        display: none;
+    }
+    .features_card_m{
+        display: none;
+    }
+    }
