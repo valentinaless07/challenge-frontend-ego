@@ -5,8 +5,11 @@ const HighlightCard = ({title, content, image}) => {
   return (
     <div className={styles.highlight_card}>
         <img src={image} alt="" />
+        <div>
+
         <h3>{title}</h3>
         <p>{content}</p>
+        </div>
     </div>
   )
 }

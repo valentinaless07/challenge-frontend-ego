@@ -21,7 +21,7 @@ const Nav = () => {
 
       <div>
         <span>Menú</span>
-      <img src={bars} alt="bars"  onClick={handleClick}/>
+      <img className={styles.bars} src={bars} alt="bars"  onClick={handleClick}/>
       </div>
      
     

@@ -48,7 +48,7 @@ const Models = ({models, filterModels}) => {
             </div>
 
             <div className={`dropdown ${styles.select_container}`}>
-                <button  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button className={styles.ordenar_button} id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Ordenar por
                 </button>
                 <img src={fill} alt="fill" />

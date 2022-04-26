@@ -1,14 +1,14 @@
-.highlight_card > img{
+.highlight_card  >img{
     width: 95%;
     border-radius: 10px;
     margin: 0px auto;
 }
 
-.highlight_card > h3{
+.highlight_card > div > h3{
     font-size: 20px;
     font-weight: 600;
     color: #373737;
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -18,4 +18,48 @@
     justify-content: center;
     padding: 0px 15px;
     margin-top: 20px;
+}
+
+@media (min-width: 425px) {
+    .highlight_card  > img{
+        width: 75%;
+      
+    }
+}
+
+@media (min-width: 650px) {
+    .highlight_card  > img{
+        width: 60%;
+      
+    }
+}
+
+@media (min-width: 900px) {
+    .highlight_card{
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .highlight_card > img {
+        width: 50%;
+    }
+    .highlight_card > div{
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .highlight_card{
+        flex-direction: row;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .highlight_card > img {
+        width: 45%;
+    }
+    .highlight_card > div{
+        padding: 15px;
+    }
 }

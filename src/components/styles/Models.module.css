@@ -79,12 +79,23 @@
     text-align: center;
 }
 
+.ordenar_button{
+    cursor: pointer;
+}
+
 .element_active{
     border-radius: 18px;
     background-color: #f7f7f7;
 }
 
 @media (min-width: 768px) {
+
+
+.dropdown_menu{
+   
+    width: 300px;
+    font-size: 0.8rem;
+}
 
     .models_container{
         display: grid;
